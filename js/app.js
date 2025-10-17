@@ -23,6 +23,8 @@ form.addEventListener('submit', e => {
     if (vacios) {
         mensaje.textContent = 'Por favor, completa todos los campos.'
         mensaje.style.color = 'red'
+        returnmensaje.textContent = 'Por favor, completa todos los campos.'
+        mensaje.style.color = 'red'
         return
     }
     localStorage.setItem('nombre', nombre.value)
