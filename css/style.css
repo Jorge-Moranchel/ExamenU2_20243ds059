@@ -45,3 +45,21 @@ button {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+button {
+    background: #008080;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+button:hover{
+    background: #1d1e30;
+}
+input.error,
+select.error {
+    border: 2px solid red;
+}
+#mensaje {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
