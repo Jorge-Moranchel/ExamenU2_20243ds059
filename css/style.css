@@ -5,4 +5,43 @@ body {
     background: #f5f5f5;
     color: #333;
 }
-
+header,
+footer {
+     background: #2b2d42;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    max-width: 500px;
+    margin: 2em auto;
+    background: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input,
+select,
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
